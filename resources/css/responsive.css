@@ -1,0 +1,69 @@
+/* medium site */
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    padding: 0.66rem 0;
+  }
+  .logo-img {
+    height: 1.3rem;
+  }
+  .logo-name {
+    font-size: 0.8rem;
+  }
+  article span {
+    font-size: 0.9rem;
+  }
+  article h1 {
+    font-size: 1.5rem;
+  }
+  .lg-site {
+    display: none;
+  }
+  .med-site {
+    display: block;
+    margin: 0 auto;
+  }
+  .product {
+    width: 47%;
+  }
+  .glasses {
+    display: none;
+  }
+}
+
+/* small site */
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+  article {
+    padding: 1rem 2rem;
+    top: 11.5rem;
+    width: 100%;
+  }
+  article span {
+    font-size: 0.77rem;
+  }
+  article h1 {
+    font-size: 0.77rem;
+  }
+  .product {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .watch {
+    display: none;
+  }
+  .store {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .store-info {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+}
